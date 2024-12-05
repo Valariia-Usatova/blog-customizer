@@ -101,7 +101,7 @@ export const ArticleParamsForm = ({
 					isAsideOpen && styles.container_open
 				}`}>
 				<form className={styles.form} onSubmit={handleSaveSubmit}>
-					<Text as={'h1'} weight={800} size={22} uppercase={true}>
+					<Text as={'h1'} weight={800} size={31} uppercase={true}>
 						Задайте параметры
 					</Text>
 					<Select
